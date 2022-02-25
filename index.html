@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Project</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span> <i class="fas fa-bars navbar-icon"></i> </span>
+                  </button>
+                    <a class="navbar-brand" href="#"><img src="images/online-lesson.png" style="width: 64px; height: 64px;" alt="logo"></a>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active text-center text-md-left" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-left" href="#about-me">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-left" href="#feedback">Feedback</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-center text-md-left" href="#contact">Contact Me</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <section id="banner-section">
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-contents text-center">
+                        <h1 class="font-weight-bolder text-white mb-5">Learn Something New!!!</h1>
+                        <button class="btn btn-lg btn-primary mr-3" onclick="location.href='#tutorial'"><i class="fas fa-play mr-2"></i> Tutorials</button>
+                        <button class="btn btn-primary btn-lg mr-3 " onclick="window.open('https://www.youtube.com')" class="request-callback"> <i class="fab fa-youtube mr-2"></i> Subscribe</button>
+                    </div>
+                </div>
+
+            </section>
+
+        </header>
+        <main>
+
+            <!-- features starts -->
+
+            <section id="features" class="text-center">
+                <div class="row">
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold">Free to Use</h5>
+                            <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab modi laboriosam maxime veritatis laborum perferendis!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold">Free to Use</h5>
+                            <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab modi laboriosam maxime veritatis laborum perferendis!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col">
+                            <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bold">Free to Use</h5>
+                            <p class="small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- features ends -->
+
+            <!-- about-me starts -->
+
+            <section id="about-me">
+
+                <div class="section-title">
+                    <h3 class="text-center">About Me</h3>
+                    <hr class="hr-style" style="border-color:black;">
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="basic-desc text-center text-lg-left">
+                            <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                            <h5 class="font-weight-bolder">Personal Info</h5>
+                            <p>Name: Syed Muntak Ahmed Ejaj</p>
+                            <p>Profession: Computer Science student</p>
+                            <p>Current address: Sylhet,Bangladesh</p>
+                            <p>
+                                <a href="#" target="_blank">
+                                    <button class="btn btn-primary">Download CV</button>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-7"></div>
+                    <div class="col-lg-5">
+                        <div class="achive-desc text-center text-lg-left">
+                            <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                            <h5 class="font-weight-bolder">Achivements</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit tenetur voluptas quibusdam expedita necessitatibus nobis esse, maiores corporis deleniti? Harum!</p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="skill-desc text-center text-lg-left">
+
+                        <i class="fas rounded-circle  fa-briefcase fa-2x icon-style"></i>
+                        <h5 class="font-weight-bolder">Skills</h5>
+                        <table>
+                            <tr>
+                                <td>HTML</td>
+                                <td>
+                                    <span class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>
+                                    <span class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>JS</td>
+                                <td>
+                                    <span class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>BOOTSTRAP</td>
+                                <td>
+                                    <span class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- about-me ends -->
+
+            <!-- tutorials start -->
+
+
+            <section id="tutorial">
+                <div class="section-title">
+                    <h3 class="text-center">Tutorial</h3>
+                    <hr class="hr-style" style="border-color:black;">
+                </div>
+                <div class="row text-center mb-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://stackify.com/wp-content/uploads/2017/08/CSharp-Tutorials-Header-min-793x397.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://stackify.com/wp-content/uploads/2017/08/CSharp-Tutorials-Header-min-793x397.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://stackify.com/wp-content/uploads/2017/08/CSharp-Tutorials-Header-min-793x397.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://stackify.com/wp-content/uploads/2017/08/CSharp-Tutorials-Header-min-793x397.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center mb-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://stackify.com/wp-content/uploads/2017/08/CSharp-Tutorials-Header-min-793x397.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://stackify.com/wp-content/uploads/2017/08/CSharp-Tutorials-Header-min-793x397.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://stackify.com/wp-content/uploads/2017/08/CSharp-Tutorials-Header-min-793x397.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 m-lg-0">
+                            <img class="card-img-top" src="https://stackify.com/wp-content/uploads/2017/08/CSharp-Tutorials-Header-min-793x397.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- tutorials ends -->
+
+            <!-- feedback starts -->
+
+            <section id="feedback">
+
+                <div class="section-title">
+                    <h3 class="text-center">Feedback</h3>
+                    <hr class="hr-style" style="border-color:black;">
+                </div>
+                <div class="row">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo vel dignissimos dolor sequi minima ipsum nostrum magni impedit fugiat?</p>
+                                <img class="rounded-circle feedback-img" src="https://alchetron.com/cdn/delwar-hossain-sayeedi-b7062344-8087-4e88-b2ee-068e5368edc-resize-750.jpeg" alt="feedback image">
+                                <h6>Syed Ejaj</h6>
+                            </div>
+                            <div class="carousel-item">
+                                <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo vel dignissimos dolor sequi minima ipsum nostrum magni impedit fugiat?</p>
+                                <img class="rounded-circle feedback-img" src="https://alchetron.com/cdn/delwar-hossain-sayeedi-b7062344-8087-4e88-b2ee-068e5368edc-resize-750.jpeg" alt="feedback image">
+                                <h6>Syed Ejaj</h6>
+
+                            </div>
+                            <div class="carousel-item">
+                                <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo vel dignissimos dolor sequi minima ipsum nostrum magni impedit fugiat?</p>
+                                <img class="rounded-circle feedback-img" src="https://alchetron.com/cdn/delwar-hossain-sayeedi-b7062344-8087-4e88-b2ee-068e5368edc-resize-750.jpeg" alt="feedback image">
+                                <h6>Syed Ejaj</h6>
+
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- feedback ends -->
+
+            <!-- contact-me ends -->
+
+            <section id="contact">
+                <div class="section-title">
+                    <h3 class="text-center text-white">Contact Me</h3>
+                    <hr class="hr-style">
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form action="mailto:ejaj.lus.1999@gmail.com" method="POST" enctype="text/plain" class="was-validated">
+
+                            <div class="form-group mb-1">
+                                <label for="fullname">Fullname</label>
+                                <input type="text" class="form-control" name="fullname" required>
+                                <div class="valid-feedback">valid</div>
+                                <div class="invalid-feedback">Enter fullname before submiting the form</div>
+                            </div>
+
+                            <div class="form-group mb-1">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" name="email" required>
+
+                            </div>
+
+                            <div class="form-group mb-1">
+                                <label for="message">Message</label>
+                                <p></p>
+                                <textarea name="" id="" cols="95" rows="10"></textarea>
+
+                            </div>
+
+                            <div class="form-group text-center mb-1 ">
+                                <input type="submit" class="btn btn-primary" value="submit">
+                                <input type="reset" class="btn btn-primary" value="reset">
+
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- contact-me ends -->
+
+
+        </main>
+        <footer>
+
+            <div class="row text-white">
+                <div class="col-lg-6 text-center text-lg-left ">
+                    <p class="small mb-0 mt-1">&copy; Copyright Syed Ejaj</p>
+                </div>
+                <div class="col-lg-6">
+                    <a href="#home">Home</a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+
+</html>

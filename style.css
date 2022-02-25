@@ -1,0 +1,225 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+
+.section-title h3 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+
+/* header starts */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url("images/schoolpixel.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.navbar {
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+    color: white;
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: auto;
+}
+
+.nav-link {
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.nav-link:hover {
+    background: #2980b9;
+    color: white;
+    transform: scale(1.1);
+}
+
+#banner-section h1 {
+    font-size: 3.5rem;
+    background-color: rgba(7, 101, 189, 0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;
+}
+
+
+/* header ends */
+
+
+/* features starts */
+
+#features {
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+
+.features-col {
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    transition: 0.4s;
+}
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon-style {
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 10px;
+}
+
+
+/* features ends */
+
+
+/* about me starts */
+
+#about-me {
+    padding: 4% 10%;
+    background: #e8ded2;
+}
+
+#about-me p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+#about-me a {
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color: black;
+    text-decoration: underline;
+}
+
+.star i {
+    width: 20px;
+}
+
+
+/* about me ends */
+
+
+/* tutorial starts */
+
+#tutorial {
+    padding: 4% 10%;
+    background: #a3d2ca;
+}
+
+.card {
+    transition: 0.4s;
+    border: 1px solid #ff02c0;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+
+/* tutorial ends */
+
+
+/* feedback starts */
+
+#feedback {
+    padding: 5%;
+    background: #5eaaa8;
+}
+
+.feedback-img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+
+/* feedback ends */
+
+
+/* contact start */
+
+#contact {
+    padding: 2% 10%;
+    background: #5eaaa8;
+}
+
+.from-group label {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+
+/* contact ends */
+
+
+/* footer starts */
+
+footer {
+    padding: 2% 7%;
+    background: #056676;
+}
+
+footer a {
+    color: white;
+    margin: 10px;
+}
+
+footer a:hover {
+    color: black;
+}
+
+
+/* footer ends */
+
+@media (max-width: 768px) {
+    .nav-link {
+        background: rgb(0, 0, 0, 0.7);
+    }
+}
